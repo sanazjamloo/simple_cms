@@ -5,7 +5,7 @@ class DemoController < ApplicationController
   end
   
   def hello
-    render (:text => 'Hello Everyone!')
+    render ('Hello Everyone!')
   end
   
 end
