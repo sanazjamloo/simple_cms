@@ -1,7 +1,7 @@
 class DemoController < ApplicationController
   
   def index
-    render ('hello')
+    #render ('hello')
     #redirect_to(:action => 'other_hello')
   end
   
